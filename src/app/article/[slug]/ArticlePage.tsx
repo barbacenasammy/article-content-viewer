@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Article from "../../components/Article";
-import { articles } from "../../constants/articles";
+import Article from "../../../components/Article";
+import { articles } from "../../../constants/articles";
 interface ArticlePageProps {
 	article: string;
 }
