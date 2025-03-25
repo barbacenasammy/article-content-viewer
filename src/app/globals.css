@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-rgb: 245, 245, 245;
+}
+
+body {
+	color: rgb(var(--foreground-rgb));
+	background: rgb(var(--background-rgb));
+}
+
+.prose img {
+	@apply rounded-lg shadow-lg;
+	max-height: 400px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.prose h1 {
+	@apply text-4xl font-bold mb-8;
+}
+
+.prose h2 {
+	@apply text-2xl font-semibold mt-8 mb-4;
+}
+
+.prose p {
+	@apply text-gray-700 leading-relaxed mb-6;
+}
+
+.prose ul {
+	@apply list-disc list-inside mb-6;
+}
+
+.prose li {
+	@apply text-gray-700 mb-2;
+}
+
+.prose a {
+	@apply text-blue-600 hover:text-blue-800 underline;
+}
