@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Article Editor",
+	title: "Article Viewer",
 	description: "Edit and preview your articles",
 };
 
