@@ -4,10 +4,9 @@ import ArticlesSection, {
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 
-export const PageSizePerQuery = 10;
-
 async function getArticles(): Promise<PaginatedResponse> {
 	try {
+		const PageSizePerQuery = 10;
 		// Replace with your Apps Script web app URL
 		const APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_APPS_SCRIPT_BASE_URL;
 
