@@ -91,6 +91,46 @@ export default function Article({ content }: ArticleProps) {
 					.prose blockquote {
 						@apply border-l-4 border-blue-500 pl-4 italic text-gray-700 my-8;
 					}
+
+					/* Table styling */
+					.prose table {
+						@apply w-full table-auto border-collapse my-8;
+					}
+					.prose th,
+					.prose td {
+						@apply border border-gray-300 px-4 py-2 text-gray-700;
+					}
+					.prose th {
+						@apply bg-gray-100 text-gray-900 font-semibold;
+					}
+					.prose td {
+						@apply text-lg;
+					}
+					.prose tr:nth-child(even) {
+						@apply bg-gray-50;
+					}
+					.prose tr:hover {
+						@apply bg-gray-200;
+					}
+											.prose table {
+						@apply w-full table-auto border-collapse my-8;
+					}
+					.prose th,
+					.prose td {
+						@apply border border-gray-300 px-4 py-2 text-gray-700;
+					}
+					.prose th {
+						@apply bg-gray-100 text-gray-900 font-semibold;
+					}
+					.prose td {
+						@apply text-lg;
+					}
+					.prose tr:nth-child(even) {
+						@apply bg-gray-50;
+					}
+					.prose tr:hover {
+						@apply bg-gray-200;
+					}
 				`}</style>
 			</div>
 		</div>
