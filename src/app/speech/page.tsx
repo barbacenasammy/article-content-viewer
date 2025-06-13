@@ -19,7 +19,7 @@ const SpeechPage: FC<pageProps> = ({}) => {
 
 	return (
 		<div className="flex flex-col items-center justify-center h-screen gap-5 p-5">
-			<h1>Talk to me</h1>
+			<h1>Caryl Ann</h1>
 			<textarea
 				className="w-full max-w-md h-40 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
 				value={text}
